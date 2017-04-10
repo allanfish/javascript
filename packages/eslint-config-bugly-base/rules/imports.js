@@ -79,6 +79,8 @@ module.exports = {
         '**/*.spec.js', // tests where the extension denotes that it is a test
         '**/webpack.config.js', // webpack config
         '**/webpack.config.*.js', // webpack config
+        '**/webpack.dev.js',
+        '**/webpack.prod.js',
         '**/rollup.config.js', // rollup config
         '**/gulpfile.js', // gulp config
         '**/gulpfile.*.js', // gulp config

@@ -133,7 +133,7 @@ module.exports = {
 
     // suggest using the spread operator instead of .apply()
     // http://eslint.org/docs/rules/prefer-spread
-    'prefer-spread': 'error',
+    'prefer-spread': 'warn',
 
     // suggest using template literals instead of string concatenation
     // http://eslint.org/docs/rules/prefer-template

@@ -11,7 +11,7 @@ module.exports = {
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 
     // require camel case names
-    camelcase: ['error', { properties: 'never' }],
+    camelcase: ['warn', { properties: 'never' }],
 
     // enforce or disallow capitalization of the first letter of a comment
     // http://eslint.org/docs/rules/capitalized-comments
@@ -243,14 +243,14 @@ module.exports = {
     'no-negated-condition': 'off',
 
     // disallow nested ternary expressions
-    'no-nested-ternary': 'error',
+    'no-nested-ternary': 'off',
 
     // disallow use of the Object constructor
     'no-new-object': 'error',
 
     // disallow use of unary operators, ++ and --
     // http://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': 'error',
+    'no-plusplus': 'off',
 
     // disallow certain syntax forms
     // http://eslint.org/docs/rules/no-restricted-syntax
@@ -287,7 +287,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
 
     // disallow dangling underscores in identifiers
-    'no-underscore-dangle': ['error', { allowAfterThis: false }],
+    'no-underscore-dangle': ['warn', { allowAfterThis: false }],
 
     // disallow the use of Boolean literals in conditional expressions
     // also, prefer `a || b` over `a ? a : b`

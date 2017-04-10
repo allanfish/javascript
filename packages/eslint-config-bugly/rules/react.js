@@ -48,7 +48,7 @@ module.exports = {
 
     // Validate closing bracket location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
+    'react/jsx-closing-bracket-location': ['error', 'after-props'],
 
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
@@ -164,7 +164,7 @@ module.exports = {
 
     // Prevent using string references
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
-    'react/no-string-refs': 'error',
+    'react/no-string-refs': 'warn',
 
     // Prevent usage of unknown DOM property
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md

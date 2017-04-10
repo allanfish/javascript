@@ -177,6 +177,9 @@ module.exports = {
         'res', // for Express responses
         'response', // for Express responses
         '$scope', // for Angular 1 scopes
+        'path',
+        'param',
+        'params',
       ]
     }],
 
@@ -211,7 +214,7 @@ module.exports = {
     'no-return-await': 'error',
 
     // disallow use of `javascript:` urls.
-    'no-script-url': 'error',
+    'no-script-url': 'off',
 
     // disallow self assignment
     // http://eslint.org/docs/rules/no-self-assign
@@ -221,7 +224,7 @@ module.exports = {
     'no-self-compare': 'error',
 
     // disallow use of comma operator
-    'no-sequences': 'error',
+    'no-sequences': 'off',
 
     // restrict what can be thrown as an exception
     'no-throw-literal': 'error',
@@ -232,8 +235,8 @@ module.exports = {
 
     // disallow usage of expressions in statement position
     'no-unused-expressions': ['error', {
-      allowShortCircuit: false,
-      allowTernary: false,
+      allowShortCircuit: true,
+      allowTernary: true,
       allowTaggedTemplates: false,
     }],
 
@@ -272,7 +275,7 @@ module.exports = {
     'prefer-promise-reject-errors': ['off', { allowEmptyReject: true }],
 
     // require use of the second argument for parseInt()
-    radix: 'error',
+    radix: ['error',  'as-needed'],
 
     // require `await` in `async function` (note: this is a horrible rule that should never be used)
     // http://eslint.org/docs/rules/require-await
