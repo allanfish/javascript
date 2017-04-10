@@ -1,4 +1,5 @@
 module.exports = {
+  parser: 'babel-eslint',
   extends: [
     './rules/best-practices',
     './rules/errors',
@@ -12,6 +13,11 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
     ecmaFeatures: {
+      jsx: true,
+      spread: true,
+      restParams: true,
+      destructuring: true,
+      experimentalDecorators: true,
       experimentalObjectRestSpread: true,
     },
   },

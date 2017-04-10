@@ -275,7 +275,7 @@ module.exports = {
     'prefer-promise-reject-errors': ['off', { allowEmptyReject: true }],
 
     // require use of the second argument for parseInt()
-    radix: ['error',  'as-needed'],
+    radix: 'warn',
 
     // require `await` in `async function` (note: this is a horrible rule that should never be used)
     // http://eslint.org/docs/rules/require-await

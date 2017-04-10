@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bugly",
-  "version": "14.1.0",
+  "version": "14.1.1",
   "description": "Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -20,12 +20,11 @@
     "eslint",
     "eslintconfig",
     "config",
-    "javascript",
+
     "styleguide"
   ],
   "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
-  "contributors": [
-    {
+  "contributors": [{
       "name": "Jake Teton-Landis",
       "url": "https://twitter.com/jitl"
     },
@@ -45,7 +44,7 @@
   },
   "homepage": "https://github.com/allanfish/javascript",
   "dependencies": {
-    "eslint-config-bugly-base": "^11.1.2"
+    "eslint-config-bugly-base": "^11.1.4"
   },
   "devDependencies": {
     "babel-preset-airbnb": "^2.2.3",
@@ -62,7 +61,8 @@
     "tape": "^4.6.3"
   },
   "peerDependencies": {
-    "eslint": "^3.18.0",
+    "eslint": "^3.19.0",
+    "babel-eslint": "^7.2.1",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^6.10.3"
