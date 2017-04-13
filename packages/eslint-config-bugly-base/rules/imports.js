@@ -85,6 +85,8 @@ module.exports = {
         '**/gulpfile.js', // gulp config
         '**/gulpfile.*.js', // gulp config
         '**/Gruntfile', // grunt config
+        'client/**',
+        'webpack/**'
       ],
       optionalDependencies: false,
     }],

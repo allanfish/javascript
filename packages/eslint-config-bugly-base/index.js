@@ -25,6 +25,9 @@ module.exports = {
     strict: 'error',
   },
   globals: {
+    window: true,
+    document: true,
+    location: true,
     __DEVELOPMENT__: true,
     __CLIENT__: true,
     __SERVER__: true,
@@ -36,6 +39,6 @@ module.exports = {
     __PRODTEST__: true,
     __data: true,
     __DATA__: true,
-    __INITIAL_STATE__: true
+    __INITIAL_STATE__: true,
   },
 };

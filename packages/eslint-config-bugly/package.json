@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bugly",
-  "version": "14.1.1",
+  "version": "14.1.2",
   "description": "Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {

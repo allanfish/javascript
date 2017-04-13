@@ -4,14 +4,14 @@
   "description": "A mostly reasonable approach to JavaScript.",
   "scripts": {
     "preinstall": "npm run install:config && npm run install:config:base",
-    "install:config": "cd packages/eslint-config-airbnb && npm prune && npm install",
-    "install:config:base": "cd packages/eslint-config-airbnb-base && npm prune && npm install",
+    "install:config": "cd packages/eslint-config-bugly && npm prune && npm install",
+    "install:config:base": "cd packages/eslint-config-bugly-base && npm prune && npm install",
     "test": "npm run --silent test:config && npm run --silent test:config:base",
-    "test:config": "cd packages/eslint-config-airbnb; npm test",
-    "test:config:base": "cd packages/eslint-config-airbnb-base; npm test",
+    "test:config": "cd packages/eslint-config-bugly; npm test",
+    "test:config:base": "cd packages/eslint-config-bugly-base; npm test",
     "travis": "npm run --silent travis:config && npm run --silent travis:config:base",
-    "travis:config": "cd packages/eslint-config-airbnb; npm run travis",
-    "travis:config:base": "cd packages/eslint-config-airbnb-base; npm run travis"
+    "travis:config": "cd packages/eslint-config-bugly; npm run travis",
+    "travis:config:base": "cd packages/eslint-config-bugly-base; npm run travis"
   },
   "repository": {
     "type": "git",
