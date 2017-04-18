@@ -36,9 +36,14 @@ module.exports = {
     __TEST__: true,
     __OA__: true,
     __PRODUCTION__: true,
+    __UNITTEST__: true,
     __PRODTEST__: true,
     __data: true,
     __DATA__: true,
     __INITIAL_STATE__: true,
+    describe: true,
+    beforeEach: true,
+    it: true,
+    afterEach: true
   },
 };

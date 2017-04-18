@@ -140,9 +140,10 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
-    'max-len': ['error', 100, 2, {
+    'max-len': ['warn', 120, 2, {
       ignoreUrls: true,
-      ignoreComments: false,
+      ignoreComments: true,
+      ignoreTrailingComments: true,
       ignoreRegExpLiterals: true,
       ignoreStrings: true,
       ignoreTemplateLiterals: true,
@@ -233,7 +234,7 @@ module.exports = {
 
     // disallow use of chained assignment expressions
     // http://eslint.org/docs/rules/no-multi-assign
-    'no-multi-assign': ['error'],
+    'no-multi-assign': 'off',
 
     // disallow multiple empty lines and only one newline at the end
     'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
