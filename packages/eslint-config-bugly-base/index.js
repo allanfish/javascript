@@ -44,6 +44,13 @@ module.exports = {
     describe: true,
     beforeEach: true,
     it: true,
-    afterEach: true
+    afterEach: true,
+    app: true,
+    mm: true,
+    mock: true,
+    request: true,
+    assert: true,
+    before: true, // mocha before()
+    after: true // mocha after()
   },
 };
