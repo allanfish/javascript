@@ -141,7 +141,7 @@ module.exports = {
 
     // disallow generator functions that do not have yield
     // http://eslint.org/docs/rules/require-yield
-    'require-yield': 'error',
+    'require-yield': 'off',
 
     // enforce spacing between object rest-spread
     // http://eslint.org/docs/rules/rest-spread-spacing
