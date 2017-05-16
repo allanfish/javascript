@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bugly",
-  "version": "14.1.4",
+  "version": "14.1.5",
   "description": "Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -44,7 +44,8 @@
   },
   "homepage": "https://github.com/allanfish/javascript",
   "dependencies": {
-    "eslint-config-bugly-base": "^11.1.4",
+    "babel-eslint": "^7.2.1",
+    "eslint-config-bugly-base": ">= 11.1.9",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3"
   },
@@ -54,20 +55,13 @@
     "editorconfig-tools": "^0.1.1",
     "eslint": "^3.18.0",
     "eslint-find-rules": "^1.14.3",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3",
     "in-publish": "^2.0.0",
-    "react": ">= 0.13.0",
+    "react": ">= 0.14.0",
     "safe-publish-latest": "^1.1.1",
     "tape": "^4.6.3"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0",
-    "babel-eslint": "^7.2.1",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint": "^3.19.0"
   },
   "engines": {
     "node": ">= 4"
