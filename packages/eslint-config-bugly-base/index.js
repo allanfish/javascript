@@ -51,6 +51,10 @@ module.exports = {
     request: true,
     assert: true,
     before: true, // mocha before()
-    after: true // mocha after()
+    after: true, // mocha after()
+    Mock: true, // mockjs
+    Random: true,  // mockjs Mock.Random
+    localStorage: true,
+    ga: true
   },
 };

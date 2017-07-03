@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bugly",
-  "version": "14.1.5",
+  "version": "14.1.6",
   "description": "Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -45,7 +45,7 @@
   "homepage": "https://github.com/allanfish/javascript",
   "dependencies": {
     "babel-eslint": "^7.2.1",
-    "eslint-config-bugly-base": ">= 11.1.9",
+    "eslint-config-bugly-base": "^11.1.10",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3"
   },
