@@ -56,7 +56,7 @@ module.exports = {
 
     // require function expressions to have a name
     // http://eslint.org/docs/rules/func-names
-    'func-names': ['warn', 'never'],
+    'func-names': ['off', 'never'],
 
     // enforces use of function declarations or expressions
     // http://eslint.org/docs/rules/func-style
@@ -256,7 +256,7 @@ module.exports = {
     // disallow certain syntax forms
     // http://eslint.org/docs/rules/no-restricted-syntax
     'no-restricted-syntax': [
-      'error',
+      'off',
       {
         selector: 'ForInStatement',
         message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
